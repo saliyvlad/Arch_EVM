@@ -1,0 +1,3 @@
+arm-linux-gnueabihf-g++ -std=c++17 -O3 -mfpu=neon -mfloat-abi=hard main.cpp -o neon_sum
+# Или нативно на Raspberry Pi / ARM сервере:
+g++ -std=c++17 -O3 -mfpu=neon main.cpp -o neon_sum
